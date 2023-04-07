@@ -68,10 +68,10 @@
 #define CONTROL_PWM                 // use RC PWM as input. disable DEBUG_SERIAL_USART2!
 #define PWM_DEADBAND 100            // How much of the center position is considered 'center' (100 = values -100 to 100 are considered 0)
 // Min / Max values of each channel (use DEBUG to determine these values)
-#define PWM_CH1_MAX 1000            // (0 - 1000)
-#define PWM_CH1_MIN -1000           // (-1000 - 0)
-#define PWM_CH2_MAX 500             // (0 - 1000)
-#define PWM_CH2_MIN -800            // (-1000 - 0)
+#define PWM_CH1_MAX 200            // (0 - 1000)
+#define PWM_CH1_MIN -200           // (-1000 - 0)
+#define PWM_CH2_MAX 200             // (0 - 1000)
+#define PWM_CH2_MIN -200            // (-1000 - 0)
 
 
 
